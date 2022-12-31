@@ -30,15 +30,7 @@ export default class HomeScreen extends Component {
     /*write code to fetch data from your flask API.
      Store the fetched data in the state named data*/
      
-     const url = "https://3402-121-241-7-122.ngrok.io";
-     axios
-       .get(url)
-       .then((response) => {
-         this.setState({ data: response.data.data });
-       })
-       .catch((error) => {
-         console.log(error.message);
-       });
+     
      
   };
 
